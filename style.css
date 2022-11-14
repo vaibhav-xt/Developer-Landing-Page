@@ -322,7 +322,7 @@ form button{
 
 @media (max-width: 950px){
   .faq-section{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .faq-image{
