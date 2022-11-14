@@ -295,6 +295,7 @@ form button{
 .footer-left ul{
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 1rem;
 }
@@ -373,6 +374,10 @@ form button{
     font-size: 3.5vw;
   }
 
+  .api{
+    padding: 1rem;
+  }
+
   .blog-heading{
     padding: 1rem;
   }
@@ -383,6 +388,7 @@ form button{
   }
 
   .blog-card{
+    margin-top: 1rem;
     border-top-left-radius: 999px;
   }
 
@@ -398,7 +404,15 @@ form button{
     flex-direction: column;
   }
 
+  .faq-content{
+    padding: 1rem;
+  }
+
   .download-section{
+    padding: 1rem;
+  }
+
+  .footer-section{
     padding: 1rem;
   }
 
